@@ -1,7 +1,7 @@
 ######################
-.index
-.meta
-.data*
+*.index
+*.meta
+*.data*
 
 # processed files
 *.p
