@@ -8,7 +8,7 @@ __pycache__
 .gz
 .tar.gz
 .tgz
-.zip
+*.zip
 
 # Images
 .png
