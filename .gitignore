@@ -6,6 +6,9 @@ __pycache__
 
 # Compressed files
 .gz
+.tar.gz
+.tgz
+.zip
 
 # Images
 .png
