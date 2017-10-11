@@ -1,4 +1,7 @@
-# compressed files
+######################
+.index
+.meta
+.data*
 
 # processed files
 *.p
