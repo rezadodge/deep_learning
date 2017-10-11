@@ -1,11 +1,4 @@
 # compressed files
-<<<<<<< HEAD
-*.tar.gz
-||||||| 681aa21... Update .gitignore
-.tar.gz
-=======
-.gz
->>>>>>> parent of 681aa21... Update .gitignore
 
 # processed files
 *.p
