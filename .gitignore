@@ -1,5 +1,8 @@
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Python byte codes
+__pycache__
+
 # Images
 .png
