@@ -4,5 +4,8 @@
 # Python byte codes
 __pycache__
 
+# Compressed files
+.gz
+
 # Images
 .png
