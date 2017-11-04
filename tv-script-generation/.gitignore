@@ -1,2 +1,8 @@
 # processed files
 *.p
+
+# saved data
+save.*
+
+# checkpoint
+checkpoint
