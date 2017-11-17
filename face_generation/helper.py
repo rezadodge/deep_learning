@@ -207,16 +207,27 @@ class Dataset(object):
         """
         IMAGE_MAX_VALUE = 255
 
-        current_index = 0
-        while current_index + batch_size <= self.shape[0]:
+        # current_index = 0
+        # while current_index + batch_size <= self.shape[0]:
+        #     data_batch = get_batch(
+        #         self.data_files[current_index:current_index + batch_size],
+        #         *self.shape[1:3],
+        #         self.image_mode)
+
+        #     current_index += batch_size
+
+        #     yield data_batch / IMAGE_MAX_VALUE - 0.5
+
+        current_index = batch_size
+        while current_index <= self.shape[0]:
             data_batch = get_batch(
-                self.data_files[current_index:current_index + batch_size],
+                self.data_files[current_index - batch_size:current_index],
                 *self.shape[1:3],
                 self.image_mode)
 
             current_index += batch_size
 
-            yield data_batch / IMAGE_MAX_VALUE - 0.5
+            yield 2 * data_batch / IMAGE_MAX_VALUE - 1
 
 
 class DLProgress(tqdm):
