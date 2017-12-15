@@ -1,7 +1,13 @@
 ######################
+cifar-10-batches-py/
+checkpoint
 *.index
 *.meta
 *.data*
 
 # processed files
 *.p
+
+# floydhub
+.floydignore
+floyd_requirements.txt
