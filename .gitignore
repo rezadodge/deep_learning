@@ -2,7 +2,7 @@
 .ipynb_checkpoints
 
 # Python byte codes
-__pycache__
+__pycache__/
 
 # Compressed files
 *.gz
