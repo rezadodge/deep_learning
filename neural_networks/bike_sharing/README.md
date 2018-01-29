@@ -7,4 +7,4 @@ A neural network model is built and trained to predict bike sharing demand in Wa
 The predictions are very good up to weekend before Christmas. The training data included only one Christmas (year 2011) so it is not surprising that the predictions are not very good for this week. 
 
 
-<img src="predictions/prediction01.png" width=900px>
+<img src="assets/prediction01.png" width=900px>
