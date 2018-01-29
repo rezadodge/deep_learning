@@ -1,4 +1,4 @@
-# <span style="color:darkred"> Generating TV Scripts using Recurrent Neural Network </span>
+# <span style="color:darkred"> Language Translation using Recurrent Neural Network </span>
 In this project, a Recurrent Neural Network (RNN) is built and train as a sequence to sequence model. 
 The network is trained on a dataset of English and their equivalent French sentences so that it can translate 
 new sentences from English to French. 
