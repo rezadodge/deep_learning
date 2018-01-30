@@ -16,7 +16,7 @@ On the right: Computer generated images after 1 epoch training
   <img src="assets/CelebA_00generated.png" width="300">
 </p>
 
-### Progression of quality of MNIST and CelebA images
+### Progression of generated image quality with training
 The images below show how the quality of computer generated images improves as training advances. The training progresses by row from left to right.
 #### _*Generated MNIST images*_
 <p align="left">
